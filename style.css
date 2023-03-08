@@ -42,6 +42,7 @@ ul {
 }
 .container {
     background: #fff;
+    border-radius: 0.625rem;
 }
 .item-1{
     padding: 2rem;
@@ -92,4 +93,27 @@ p,li {
 .container section article:last-child h3 {
     font-size: 1.3rem;
     margin: 1rem 0;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 700px;
+        margin: 0 auto;
+    }
+    div > h2 {
+     font-size: 2rem;
+    }
+    .container section {
+        flex-direction: row;
+    }
+    .container section article:first-child {
+        flex: 1;
+        border-bottom-left-radius: 0.625rem;
+        
+    }
+    .container section article:last-child{
+        flex: 1;
+        border-bottom-right-radius: 0.625rem;
+        
+    } 
 }
