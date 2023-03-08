@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+--Cyan: hsl(179, 62%, 43%);
+--Bright-yellow: hsl(71, 73%, 54%);
+
+/* Neutral */
+
+--Light-gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+}
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background:var(--Light-gray);
+    padding: 1.25rem;
+}
+ul {
+    list-style-type: none
+    ;
+}
+.btn{
+    color: #fff;
+    background-color: var(--Bright-yellow);
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.625rem 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+}
+.green-text {
+    color: var(--Bright-yellow);
+    font-weight: 700;
+}
+.container {
+    background: #fff;
+}
+.item-1{
+    padding: 2rem;
+}
+div > h2 {
+    color: var(--Cyan);
+    margin-bottom: 1rem;
+}
+p,li {
+    line-height: 1.6;
+}
+.paragraph {
+   margin-bottom: 1rem;
+   color: var(--Grayish-Blue);
+}
+.container section {
+    display: flex;
+    flex-direction: column;
+}
+.container section article {
+    color: #fff;
+    padding:2rem;
+}
+.container section article:first-child {
+    background-color: var(--Cyan);
+    padding-top: 2rem;
+}
+.container section article:first-child h3 {
+    margin-bottom: 1rem;
+}
+.container section article:first-child p:nth-child(2) {
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.container section article:first-child p span{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 0.9rem;
+}
+.container section article:first-child p:nth-child(3){
+    margin: 1rem 0;
+}
+.container section article:last-child{
+    background-color: hsl(179, 69%, 48%);
+}
+.container section article:last-child h3 {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
