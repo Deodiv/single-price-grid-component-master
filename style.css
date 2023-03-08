@@ -89,6 +89,8 @@ p,li {
 }
 .container section article:last-child{
     background-color: hsl(179, 69%, 48%);
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
 }
 .container section article:last-child h3 {
     font-size: 1.3rem;
